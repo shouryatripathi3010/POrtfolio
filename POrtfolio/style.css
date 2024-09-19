@@ -33,17 +33,12 @@ body {
     background-color: #111;
     position: relative;
 }
-
-
 /* Navbar code */
-
-
 #nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 4px 22px;
-    /* height: 120px; */
     width: 100%;
     position: fixed;
     top: 2vh;
@@ -80,7 +75,6 @@ body {
 
 .resume-btn a {
     font-size: 1.1vmax;
-    /* background-color: red; */
     font-family: gilroy;
     font-weight: 600;
 }
@@ -106,7 +100,6 @@ body {
 
 .resume-btn a {
     font-size: 1.1vmax;
-    /* background-color: red; */
     font-family: gilroy;
     font-weight: 600;
 }
@@ -133,7 +126,6 @@ body {
 
 .resume-btn-prt a {
     font-size: 1.1vmax;
-    /* background-color: red; */
     font-family: gilroy;
     font-weight: 600;
 }
@@ -152,11 +144,8 @@ body {
     height: 5.1vw;
     cursor: pointer;
     border-radius: 50%;
-    /* margin-left: 4.1vw; */
 }
-
 /* Navbar responsive  */
-
 @media (max-width:600px) {
 
     #nav {
@@ -164,7 +153,6 @@ body {
         align-items: center;
         justify-content: space-between;
         padding: 4px 19px;
-        /* height: 120px; */
         width: 100%;
         position: fixed;
         top: 2vh;
@@ -212,7 +200,6 @@ body {
 
     .resume-btn-prt a {
         font-size: 2.2vmax;
-        /* background-color: red; */
         font-family: gilroy;
         font-weight: 600;
     }
@@ -220,14 +207,7 @@ body {
 
 }
 
-
-
-
 /* ------Page 1 code----- */
-
-
-
-
 
 #page1 {
     min-height: 100vh;
@@ -248,8 +228,6 @@ body {
 #image-div {
     height: 180vmin;
     width: 70vmax;
-    /* border-radius: 50%; */
-    /* background-color: red; */
     overflow: hidden;
 }
 
@@ -260,14 +238,7 @@ body {
     width: 100%;
 }
 
-
-
-
 /* ----Page1 responsive---- */
-
-
-
-
 
 @media (max-width:600px) {
     #page1 {
@@ -277,7 +248,6 @@ body {
         align-items: center;
         justify-content: flex-end;
         flex-direction: column;
-        /* background-color: red; */
         position: relative;
     }
 
@@ -289,12 +259,8 @@ body {
     #image-div {
         height: 45vmax;
         width: 75vw;
-        /* border-radius: 50%; */
-        /* background-color: red; */
         overflow: hidden;
         margin-bottom: 2vmax;
-        /* width: 78vw; */
-        /* clip-path: ellipse(40% 50% at 50% 50%); */
     }
 
     #image-div img {
@@ -306,11 +272,7 @@ body {
 
 }
 
-
-
 /* ------Page2 code------ */
-
-
 
 #page2 {
     min-height: 100vh;
@@ -334,13 +296,8 @@ body {
 
 #name-div h1 {
     font-size: 8vw;
-    /* background-color:yellow; */
     margin-right: 2vw;
     display: inline-block;
-    /* animation-name: namemoving; */
-    /* animation-duration: 3s;
-    animation-timing-function: linear;
-    animation-iteration-count: infinite; */
 }
 
 @keyframes namemoving {
@@ -358,7 +315,6 @@ body {
     width: 80%;
     padding-top: 4vh;
     padding-bottom: 10vh;
-    /* background-color: red; */
     margin-left: auto;
     margin-right: auto;
 }
@@ -389,16 +345,9 @@ body {
 
 #intro-div a img {
     height: 6.8vmax;
-    /* background-color: blue; */
 }
 
-
-
-
 /* ----Page2 responsive----- */
-
-
-
 
 @media (max-width:600px) {
 
@@ -415,7 +364,6 @@ body {
         position: relative;
         overflow-x: auto;
         margin-bottom: 1vh;
-        /* background-color: red; */
         overflow-y: hidden;
     }
 
@@ -425,7 +373,6 @@ body {
 
     #name-div h1 {
         font-size: 14.6vw;
-        /* background-color:yellow; */
         margin-right: 2vw;
         display: inline-block;
     }
@@ -436,7 +383,6 @@ body {
         width: 90%;
         padding-top: 2vh;
         padding-bottom: 8vh;
-        /* background-color: red; */
         margin-left: auto;
         margin-right: auto;
     }
@@ -456,7 +402,6 @@ body {
     #intro-div #prof {
         height: 70px;
         width: 70%;
-        /* background-color: red; */
         display: flex;
         align-items: center;
         justify-content: center;
@@ -466,18 +411,12 @@ body {
     }
 
     #intro-div a img {
-        /* margin-left: -10px; */
         height: 9.9vmax;
-        /* background-color: blue; */
     }
 
 }
 
-
-
 /* -----Page3 code------ */
-
-
 
 #page3 {
     min-height: 100vh;
@@ -534,11 +473,7 @@ body {
     margin-right: 1.4vmax;
 }
 
-
-
 /* ----Page3 responsive---- */
-
-
 
 @media (max-width:600px) {
 
@@ -602,11 +537,7 @@ body {
 
 }
 
-
-
 /* ----Page4 code----- */
-
-
 
 #page4 {
     min-height: 100vh;
@@ -638,7 +569,6 @@ body {
 
 #work-sample {
     background-color: #fff;
-    /* border: 3px solid #fff; */
     height: 76vh;
     margin-bottom: 4vmax;
     display: flex;
@@ -657,7 +587,6 @@ body {
 #page4>a {
     display: block;
     text-align: right;
-    /* background-color: red; */
     margin-bottom: 3vmax;
     padding: 0 1vw;
 }
@@ -666,11 +595,7 @@ body {
     height: 4.2vmax;
 }
 
-
-
 /* ----page4 responsive---- */
-
-
 
 @media (max-width:600px) {
 
@@ -686,7 +611,6 @@ body {
         font-size: 4.4vmax;
         font-weight: 600;
         font-family: gilroy;
-        /* background-color: red; */
     }
 
     #page4>h2 span {
@@ -705,7 +629,6 @@ body {
 
     #work-sample {
         background-color: #fff;
-        /* border: 3px solid #fff; */
         height: 69vh;
         margin-bottom: 4.8vmax;
         display: flex;
@@ -725,7 +648,6 @@ body {
     #page4>a {
         display: block;
         text-align: right;
-        /* background-color: red; */
         margin-bottom: 1vmax;
         padding: 0 1vw;
     }
@@ -736,13 +658,7 @@ body {
 
 
 }
-
-
-
 /* ----page6 code---- */
-
-
-
 
 #page6 {
     background-color: #222;
@@ -753,7 +669,6 @@ body {
 }
 
 #page6 h1 {
-    /* text-align: center; */
     font-size: 4.6vmax;
     font-family: gilroy;
     margin-top: 1vmax;
@@ -836,12 +751,7 @@ body {
     color: #222;
 }
 
-
-
-
 /* ----page6 responsive---- */
-
-
 
 @media (max-width:600px) {
     #page6 {
@@ -853,7 +763,6 @@ body {
     }
 
     #page6 h1 {
-        /* text-align: center; */
         font-size: 4vmax;
         font-family: gilroy;
         margin-top: 0vmax;
@@ -887,7 +796,6 @@ body {
         z-index: 99;
         transition: color ease-in 0.4s;
         width: 18%;
-        /* background-color: red; */
     }
 
     #artworks a h5 {
@@ -895,7 +803,6 @@ body {
         font-weight: 600;
         font-family: gilroy;
         width: 33%;
-        /* background-color: red; */
         position: relative;
         transition: color ease-in 0.4s;
         z-index: 99;
@@ -905,7 +812,6 @@ body {
         font-size: 1.9vmax;
         width: 29%;
         text-align: right;
-        /* background-color: red; */
         position: relative;
         z-index: 99;
         font-family: gilroy;
@@ -941,8 +847,6 @@ body {
     }
 
 }
-
-
 
 /* -------page5--------------- */
 
@@ -996,7 +900,6 @@ footer {
     font-family: gilroy;
     font-weight: 600;
     font-size: 1.5vmax;
-    /* font: normal 1.2vmax "Mont"; */
 }
 
 footer span {
@@ -1004,12 +907,10 @@ footer span {
 }
 
 .author {
-    /* font-size: 4vmax; */
     font-family: monument;
 }
 
 .author a {
-    /* font-size: 4vmax; */
     color: #FC626A;
 }
 
